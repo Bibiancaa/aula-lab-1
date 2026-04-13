@@ -1,0 +1,50 @@
+#1
+#base = float(input("Escreva a base do triângulo: "))
+#altura = float(input("Escreva a altura do seu triângulo "))
+#area = base * altura/ 2
+#print("A área do triângulo é", area)
+
+#2
+#import math
+#cateto1 = int(input("Isira o primeiro cateto: "))
+#cateto2 = int(input("Insira o segundo cateto "))
+#hipotenusa = math.sqrt(cateto1**2 + cateto2**2)
+#print("A hipotemusa é", hipotenusa)
+
+#3
+#d = float(input("Dê o diâmetro da circunferência: "))
+#raio = (d / 2)
+#pi = 3.141592
+#circ = 2*pi*raio
+#print("O comprimento da circunferência é", circ)
+
+#4
+#tcel = float(input("Dê a temperatura em Celsius: "))
+#tfah = tcel*9 / 5 + 32
+#print("A temperatura em Fahrenheit é", tfah)
+
+#5
+#import math
+#area = int(input("Escreva a área da face do cubo: "))
+#volume = math.sqrt(a) * a
+#print("O volume do cubo é", vol)
+
+#6
+#p = int(input("Insira a quantidade de pessoas: "))
+#l = int(input("Insira a quantidade de frutas: "))
+#reparticao = l // p
+#sobra = l%p 
+#print("Cada pessoa receberá", reparticao ,"laranjas e sobrarão", sobra )
+
+#7
+#primeiro = int(input("Insira o primeiro termo: "))
+#r = int(input("Insira o valor da razão: "))
+#decimo = primeiro + (10 - 1)*r
+#print("O décimo termo é", decimo)
+
+#8
+#primeiro = int(input("Insira o primeiro termo: "))
+#r = int(input("Insira o valor da razão: "))
+#ordem = int(input("Insira o a ordem do elemento desejado: "))
+#nesimo = primeiro + (ordem - 1)* r
+#print("O n-ésimo termo é", nesimo)
