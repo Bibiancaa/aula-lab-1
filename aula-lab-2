@@ -1,1 +1,26 @@
+#idades maior e menor
+#idade1 = int(input("insira idade 1: "))
+#idade2 = int(input("insira idade 2: "))
+#if idade1 > idade2:
+#    print(idade1, "é maior")
+#elif idade2 > idade1:
+#    print(idade2, "é maior")
+#else:
+#    print("elas são iguais")
 
+#diferença valores
+#valor1 = int(input("escreva primeiro valor: "))
+#valor2 = int(input("escreva segundo valor: "))
+#if valor1 > valor2:
+#    print("a diferença entre eles é", (valor1 - valor2))
+#elif valor2 > valor1:
+#    print("a diferença entre eles é", (valor2 - valor1))
+#else:
+#    print("eles são iguais")
+
+#par ou ímpar
+#valor1 = int(input("escreva um número: "))
+#if valor1%2 == 0:
+#    print("o número é par")
+#else:
+#    print("o número é impar")
