@@ -1,26 +1,95 @@
-#idades maior e menor
-#idade1 = int(input("insira idade 1: "))
-#idade2 = int(input("insira idade 2: "))
+#Idades maior e menor
+#idade1 = int(input("Insira idade 1: "))
+#idade2 = int(input("Insira idade 2: "))
 #if idade1 > idade2:
 #    print(idade1, "é maior")
 #elif idade2 > idade1:
-#    print(idade2, "é maior")
+#   print(idade2, "é maior")
 #else:
-#    print("elas são iguais")
+#    print("Elas são iguais")
 
-#diferença valores
-#valor1 = int(input("escreva primeiro valor: "))
-#valor2 = int(input("escreva segundo valor: "))
+
+#Diferença valores
+#valor1 = int(input("Escreva primeiro valor: "))
+#valor2 = int(input("Escreva segundo valor: "))
 #if valor1 > valor2:
-#    print("a diferença entre eles é", (valor1 - valor2))
+#    print("A diferença entre eles é", (valor1 - valor2))
 #elif valor2 > valor1:
-#    print("a diferença entre eles é", (valor2 - valor1))
+#    print("A diferença entre eles é", (valor2 - valor1))
 #else:
-#    print("eles são iguais")
+#    print("Eles são iguais")
 
-#par ou ímpar
+
+#Par ou ímpar
 #valor1 = int(input("escreva um número: "))
 #if valor1%2 == 0:
 #    print("o número é par")
 #else:
 #    print("o número é impar")
+
+
+#Positivo ou negativo
+#valor = int(input("Insira um número inteiro não nulo: "))
+#if valor > 0:
+#    print("O número é positivo")
+#elif valor < 0:
+#    print("O número é negativo")
+#else:  
+#    print("O número é igual a zero")
+
+
+#Passível habilitação
+#idade = int(input("Insira sua idade: "))
+#if idade >= 18:
+#    print("Pode realizar os testes para tirar a carteira de motorista.")
+#else:
+#    print("Não pode realizar os testes")
+
+
+#Aprovação Cálculo 1 
+#nota1 = float(input("Insira sua primeira nota: "))
+#presença = int(input("Insira a quantidade de aulas assistidas: "))
+#media = (nota1 + nota2) / 2
+#frequencia = presença / 30 * 100
+#if media >= 6.0 and frequencia >= 75:
+#    print("Aprovado em Cálculo 1")
+#else:
+#    print("Reprovado")
+
+
+#Raiz quadrada
+#import math
+#numero = int(input("Insira um número real: "))
+#if numero >= 0:
+#    raiz = math.sqrt(numero)
+#    print("A raiz quadrada do núemro é", raiz)
+#else:
+#    print("O cálculo é impossível.")
+
+#Passível de votar
+#idade = int(input("Insira sua idade: "))
+#if idade >= 18 and idade <= 70:
+#    print("Você é obrigado a votar.")
+#else:
+#    print("Você  está liberado de votar.")
+
+
+#Concessão empréstimo
+#salário = float(input("Insira o valor total da sua compra: "))
+#prestação = float(input("Insira o valor da prestação: "))
+#valormax = prestação / salário * 100
+#if valormax > 30:
+#    print("Empréstimo não pode ser concedido.")
+#else:
+#    print("Empréstimo pode ser concedido.")
+
+#Descontos compra
+#valorinicial = float(input("Insira o valor total da sua compra: "))
+#if valorinicial <= 100:
+#    desconto = valorinicial * 5 / 100
+#    valorfinal = valorinicial - desconto
+#    print("Você tem direito a 5% de desconto, o valor do seu desconto foi", desconto, "é o valor a ser pago é", valorfinal)
+#else:
+#    desconto2 = valorinicial * 10 / 100
+#    valorfinal2 = valorinicial - desconto2
+#    print("Você tem dinheiro a 10% de desconto, o valor do seu desconto foi", desconto2, "e o valor a ser pago é", valorfinal2)
