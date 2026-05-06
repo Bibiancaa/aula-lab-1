@@ -71,3 +71,19 @@
 #    print("A área do trângulo é", areat)
 #else:
 #    print("Erro")
+
+#Classificação dos triângulos
+#print("Informe os dados a seguir em ordem DECRESCENTE")
+#lado1 = float(input("Insira o primeiro lado: "))
+#lado2 = float(input("Insira o segundo lado: "))
+#lado3 = float(input("Insira o terceiro lado: "))
+#if lado1 + lado2 > lado3:
+#    print("Pode constituir os lados de um triângulo.")
+#    if lado1 == lado2 and lado1 == lado3 and lado2 == lado3:
+#        print("O triângulo é equilátero")
+#    if lado1 != lado2 and lado1 != lado3 and lado3 != lado2:
+#        print("O triângulo é escaleno.")
+#    if lado1 == lado2 and lado1 != lado3 or lado1 == lado3 and lado1 != lado2 or lado2 == lado3 and lado3 != lado1:
+#        print("O triângulo é isósceles.")
+#else:
+#    print("Nâo é possível constituir os lados de um triângulo.")
