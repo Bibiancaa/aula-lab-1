@@ -1,1 +1,54 @@
+#Maior número entre 4
+#n1 = int(input("Insira o primeiro número: "))
+#n2 = int(input("Insira o segundo número: "))
+#n3 = int(input("Insira o terceiro número: "))
+#n4 = int(input("Insira o quarto número: "))
+#if n1>n2:
+#    if n1>n3:
+#        if n1>n4:
+#            print(n1, "é maior")
+#        else:
+#            print(n4, "é maior")
+#    else:
+#        if n3>n4:
+#            print(n3, "é maior")
+#        else:
+#            print(n4, "é maior")
+#else:
+#    if n2>n3:
+#        if n2>n4:
+#            print(n2, "é maior")
+#        else:
+#            print(n4, "é maior")
+#    else:
+#        if n3>n4:
+#            print(n4, "é maior")
+#        else:
+#            print(n4, "é maior")
 
+#Maior, menor, média e diferença entre eles com três números
+#n1 = int(input("Insira o primeiro número: "))
+#n2 = int(input("Insira o segundo número: "))
+#n3 = int(input("Insira o terceiro número: "))
+#if n1>n2 and n2>n3:
+#    maior = n1
+#    menor = n3
+#if n1>n2 and n3>n2:
+#        maior = n1
+#        menor = n2
+#if n2>n1 and n1>n3:
+#    maior = n2
+#    menor = n3
+#if n2>n1 and n3>n1:
+#        maior = n2
+#        menor = n1
+#if n3>n1 and n1>n2:
+#    maior = n3
+#    menor = n2
+#if n3> n1 and n2>n1:
+#        maior = n3
+#        menor = n1
+#print(menor,"é o menor e", maior, "é o maior.")
+#diferenca = maior - menor
+#media = (maior + menor) / 2
+#print("A diferença é", diferenca, "e a média", media)
