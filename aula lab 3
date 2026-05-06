@@ -52,3 +52,22 @@
 #diferenca = maior - menor
 #media = (maior + menor) / 2
 #print("A diferença é", diferenca, "e a média", media)
+
+#Círculo, triânculo e quadrado, área
+#import math
+#figura = (input("Insira Q para quadrado, C para círculo e T para triângulo: "))
+#if figura == "Q":
+#    lado = float(input("Insira o lado do quadrado: "))
+#    areaq = lado * lado
+#    print("A área do quadrado é", areaq)
+#elif figura == "C":
+#    raio = float(input("Insira o raio do círculo: "))
+#    areac = math.pi * raio * raio
+#    print("A área do círculo é", areac)
+#elif figura == "T":
+#    base = float(input("Insira o valor da base: "))
+#    altura = float(input("Insira o valor da altura: "))
+#    areat = base * altura / 2
+#    print("A área do trângulo é", areat)
+#else:
+#    print("Erro")
