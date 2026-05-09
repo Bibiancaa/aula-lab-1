@@ -107,4 +107,18 @@
 #else:
 #    print("Nâo é possível constituir os lados de um triângulo.")
 
+#Salário e dados de vendedores de filtrols caseiros
+#valor = int(input("Insira o valor do filtro: "))
+#quantidade = int(input("Insira a quantidade de filtros vendidos no mês: "))
+#valorporfiltro = int(quantidade * valor)
+#if quantidade < 30:
+#    salario1 = (107.5 / 100) * 1000 + valorporfiltro
+#    print("A categoria do vendedor é C e seu salário é", salario1)
+#elif 45 >= quantidade >= 30:
+#    salario2 = 109.5 / 100 * 1000 + quantidade * valor
+#    print("A categoria do vendedor é B e seu salário é", salario2)
+#elif quantidade > 45:
+#    salario3 = 112 / 100 * 1000 + quantidade * valor
+#    print("A categoria do vendedor é A e seu salário é", salario3)
+
 
