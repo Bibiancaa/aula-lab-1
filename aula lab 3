@@ -87,3 +87,24 @@
 #        print("O triângulo é isósceles.")
 #else:
 #    print("Nâo é possível constituir os lados de um triângulo.")
+
+#Classificação dos triângulos com lados e ângulos 
+#print("Informe os dados a seguir em ordem DECRESCENTE, do MAIOR para o MENOR")
+#angulo1 = float(input("Insira o primeiro ângulo: ")) #MAIOR
+#angulo2 = float(input("Insira o segundo ângulo: ")) #MEIO
+#angulo3 = float(input("Insira o terceiro ângulo: ")) #MENOR
+#lado1 = float(input("Insira o primeiro lado: ")) #MAIOR
+#lado2 = float(input("Insira o segundo lado: ")) #MEIO
+#lado3 = float(input("Insira o terceiro lado: ")) #MENOR
+#if lado1 + lado2 > lado3:
+#    print("Pode constituir os lados e ângulos de um triângulo.")
+#    if angulo1< 90 and lado1**2 < lado2**2 + lado3**2:
+#        print("O triângulo é acutângulo.")
+#    if angulo1 == 90 and lado1**2 == lado2 **2 + lado3**2:
+#        print("O triângulo é retângulo.")
+#    if angulo1 > 90 and lado1**2 > lado2**2 + lado3**2:
+#        print("O triângulo é obtusângulo.")
+#else:
+#    print("Nâo é possível constituir os lados de um triângulo.")
+
+
