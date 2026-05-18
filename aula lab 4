@@ -1,1 +1,12 @@
+#Área trapézio
+#baseMaior = float(input("Insira a base maior: "))
+#baseMenor = float(input("Insira o valor da base menor "))
+#altura = float (input("Insira o valor da altura: "))
+#areaMaxima = float(input("Insira o valor da área máxima esperada: "))
+#area = (baseMaior + baseMenor) * altura / 2
+#print("A área do trapézio é", area)
+#if area <= areaMaxima:
+#    print("A área está dentro do valor máximo esperado")
+#else:
+#    print("A área não está dentro do valor máximo esperado")
 
