@@ -1,35 +1,43 @@
 #Área trapézio
-#baseMaior = float(input("Insira a base maior: "))
-#baseMenor = float(input("Insira o valor da base menor "))
-#altura = float (input("Insira o valor da altura: "))
-#areaMaxima = float(input("Insira o valor da área máxima esperada: "))
-#area = (baseMaior + baseMenor) * altura / 2
-#print("A área do trapézio é", area)
-#if area <= areaMaxima:
-#    print("A área está dentro do valor máximo esperado")
-#else:
-#    print("A área não está dentro do valor máximo esperado")
+baseMaior = float(input("Insira a base maior: "))
+baseMenor = float(input("Insira o valor da base menor "))
+altura = float (input("Insira o valor da altura: "))
+areaMaxima = float(input("Insira o valor da área máxima esperada: "))
+area = (baseMaior + baseMenor) * altura / 2
+print("A área do trapézio é", area)
+if area <= areaMaxima:
+    print("A área está dentro do valor máximo esperado.")
+else:
+    print("A área não está dentro do valor máximo esperado.")
 
 #Média de notas e rendimento
-#nota1 = float(input("Insira a nota 1: "))
-#nota2 = float(input("Insira nota 2: "))
-#mediaPond = (nota1 *2) + (nota2 * 3) / 5
-#if mediaPond >= 7:
-#    print("O aluno obteve um bom rendimento")
-#else:
-#    print("O aluno não teve um bom rendimento")
+nota1 = float(input("Insira a nota 1: "))
+nota2 = float(input("Insira nota 2: "))
+mediaPond = (nota1 *2) + (nota2 * 3) / 5
+if mediaPond >= 7:
+    print("O aluno obteve um bom rendimento.")
+else:
+    print("O aluno não teve um bom rendimento.")
 
 #Maior número entre três
-#n1 = int(input("Insira o primeiro número: "))
-#n2 = int(input("Insira o segundo número: "))
-#n3 = int(input("Insira o terceiro número: "))
-#if n1>n2: 
-#    if n1>n3: 
-#        print(n1, "é o maior")
-#    else:
-#        print(n3, "é o maior")
-#else:
-#    if n2>n3:
-#        print(n2, "é o maior")
-#    else:
-#        print(n3, "é o maior")
+n1 = int(input("Insira o primeiro número: "))
+n2 = int(input("Insira o segundo número: "))
+n3 = int(input("Insira o terceiro número: "))
+if n1>n2: 
+    if n1>n3: 
+        print(n1, "é o maior.")
+    else:
+        print(n3, "é o maior.")
+else:
+    if n2>n3:
+        print(n2, "é o maior.")
+    else:
+        print(n3, "é o maior.")
+
+#Valor a pagar estacionamento
+tempo = float(input("Insira a quantidade de tempo que o veículo ficou no estacionamento: "))
+horas = float(tempo // 1)
+if tempo % 1 > 0:
+    print(f"O valor a ser pago é",(horas * 10 + 10))
+else:
+    print(f"O valor a ser pago é", (horas *10))
