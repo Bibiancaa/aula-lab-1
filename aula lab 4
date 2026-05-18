@@ -10,3 +10,11 @@
 #else:
 #    print("A área não está dentro do valor máximo esperado")
 
+#Média de notas e rendimento
+#nota1 = float(input("Insira a nota 1: "))
+#nota2 = float(input("Insira nota 2: "))
+#mediaPond = (nota1 *2) + (nota2 * 3) / 5
+#if mediaPond >= 7:
+#    print("O aluno obteve um bom rendimento")
+#else:
+#    print("O aluno não teve um bom rendimento")
