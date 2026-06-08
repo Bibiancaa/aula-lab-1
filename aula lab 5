@@ -1,1 +1,69 @@
+"""
+Contagem regressiva
+n = int(input("Insira um número maior ou igual a dez: "))
+while n>0:
+    print(n)
+    n-=1
 
+Somatório simples
+cont = 0
+soma = 0
+media = 0
+print("Insira 5 números)
+while cont<5:
+    cont+=1
+    num = int(input())
+    soma += num
+    media = soma / cont
+print("A soma é", soma, "e a média é", media)
+
+Somatório simples II
+cont = 0
+soma = 0
+media = 0
+n = int(input("Quantos números você quer que sejam usados? "))
+while cont<n:
+    cont+=1
+    num = int(input("Insira os números: "))
+    soma += num
+    media = soma / cont
+print("A soma é", soma, "e a média é", media)
+
+Números pares
+cont = 0 
+num = -2
+n = int(input("Até que número você deseja saber os pares: "))
+while cont<n and num<n:
+    cont +=1
+    num +=2
+    if num>n:
+        break
+    print(num)
+
+Tabuada personalizada
+n = int(input("Digite um número para a tabuada dele ser exibida: "))
+cont = 0
+num = -n
+while cont<=10:
+    cont+=1
+    num +=n
+    print(num)
+
+Validação da idade
+idade = int(input("Insira a sua idade: "))
+cont = 0
+while idade<18 or idade>70:
+    cont+= 1
+    print("Idade inválida")
+    idade = int(input("Insira a sua idade: "))
+print("Idade válida")
+
+Acumulador com flag
+"""
+n = int(input("Digite um número: "))
+cont = 0
+while n>0:
+    cont+=1
+    print(n)
+    n = int(input("Digite um número: "))
+print("Apareceram", cont, "números.")
