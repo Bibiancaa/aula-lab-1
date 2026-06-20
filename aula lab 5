@@ -60,7 +60,6 @@ while idade<18 or idade>70:
 print("Idade válida")
 
 Acumulador com flag
-"""
 n = int(input("Digite um número: "))
 cont = 0
 while n>0:
@@ -68,3 +67,16 @@ while n>0:
     print(n)
     n = int(input("Digite um número: "))
 print("Apareceram", cont, "números.")
+
+#8 - Contador palavras que começam com A
+palavras = input("Digite uma palavra: ")
+palavras = palavras.upper()
+cont = 0
+while palavras!="FIM":
+    palavras = palavras.upper()
+    if palavras[0] == "A":
+        cont+=1
+    print(palavras)
+    palavras = input("Digite uma palavra: ")
+    palavras = palavras.upper()
+print("Apareceram", cont, "palavras que começam com a letra A.")
