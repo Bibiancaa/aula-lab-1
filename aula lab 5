@@ -1,3 +1,4 @@
+#Exercícios básicos com while (com duas questões adicionadas)
 """
 Contagem regressiva
 n = int(input("Insira um número maior ou igual a dez: "))
