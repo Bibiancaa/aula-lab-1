@@ -80,3 +80,17 @@ while palavras!="FIM":
     palavras = input("Digite uma palavra: ")
     palavras = palavras.upper()
 print("Apareceram", cont, "palavras que começam com a letra A.")
+
+#9 - Números ímpares decrescentes
+n = int(input("Insira um número maior ou igual a cinco: "))
+while n>0:
+    if n%2 == 0:
+        #ta aparecendo o primeiro número duas vezes
+        n-=1
+        print(n)
+    else:
+        print(n)
+        n-=2
+
+#10 - Múltiplos de 3
+n = int(input("Insira um número: "))
