@@ -86,6 +86,7 @@ n = int(input("Insira um número maior ou igual a cinco: "))
 while n>0:
     if n%2 == 0:
         #ta aparecendo o primeiro número duas vezes
+# colocar n em outra variável, decrementar par / ímpar e depois colocar no while
         n-=1
         print(n)
     else:
